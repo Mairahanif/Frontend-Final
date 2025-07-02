@@ -1,0 +1,55 @@
+/* Navigation */
+
+/* Example selector for main navigation bar */
+.navigation-main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 1200px;
+  max-width: 1500px;
+  height: 148px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+/* Example selector for secondary navigation */
+.navigation-secondary {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 720px;
+  max-width: 1500px;
+  height: 148px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+/* Example selector for hidden navigation */
+.navigation-hidden {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 720px;
+  max-width: 1500px;
+  height: 148px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 0;
+}
